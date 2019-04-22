@@ -56,16 +56,12 @@ namespace TotoJokerGenerator
             }
             else 
             {
-                Console.Write("You entered an invalid number. Choose a number between 1 and 9: ");
+                Console.Write("invalid number. Choose a number between 1 and 9: ");
                 numberOfPosition = int.Parse(Console.ReadLine());   
                 NewMethod(numberOfPosition, positions);
                
-            }
-            
+            }       
             return numberOfPosition;
-
         }
-
-
     }
 }
